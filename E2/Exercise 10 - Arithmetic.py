@@ -11,7 +11,8 @@ print()
 print("Sum of a+b =", a + b)
 print("Difference of b-a =", b - a)
 print("Product of a*b =", a * b)
-print("Quotient of a/b =", a / b)
+print("Quotient of a/b =", round(a / b, 2))
 print("Reminder of a/b =", a % b)  # reminder is represented by %
-print("Logarythm Log10 from a =", math.log10(a))  # before using math fucntion they should be imported - line 7
+print("Logarythm Log10 from a =",
+      round(math.log10(a), 4))  # before using math fucntion they should be imported - line 7
 print("a to the power of b equals", math.pow(a, b))
